@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1413990677 source:c:\kdonthineni\project\git\code-blocks\company\main.cpp
+	<iostream>
+	"Manager.h"
+
+1413990667 c:\kdonthineni\project\git\code-blocks\company\manager.h
+	"Employee.h"
+
+1413990667 c:\kdonthineni\project\git\code-blocks\company\employee.h
+	<iostream>
+	<sstream>
+
