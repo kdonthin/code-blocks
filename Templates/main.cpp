@@ -22,9 +22,37 @@ void test1()
   display(ais, 10) ;
 }
 
+template <typename T>
+T max(T &a, T &b)
+{
+  if ( a > b)
+  {
+    return a ;
+  }
+  else
+  {
+    return b ;
+  }
+}
+
+void test2()
+{
+  int a1 = 10, a2 = 20 ;
+  double d1 = 100.1, d2 = 10.1 ;
+  string s1 = "One", s2 = "Two" ;
+
+  cout << "Compare : " << a1 << " and " << a2 << ", Max is : " << max(a1, a2) << endl ;
+  cout << "Compare : " << d1 << " and " << d2 << ", Max is : " << max(d1, d2) << endl ;
+  cout << "Compare : " << s1 << " and " << s2 << ", Max is : " << max(s1, s2) << endl ;
+}
+
 int main()
 {
   test1() ;
+
+  cout << "--------------------------------------------" << endl ;
+
+  test2() ;
 
   return 0;
 }
