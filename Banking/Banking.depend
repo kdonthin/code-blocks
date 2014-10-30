@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1413949491 source:c:\kdonthineni\project\git\code-blocks\banking\main.cpp
+	<iostream>
+	"CheckingAccount.h"
+
+1413949491 c:\kdonthineni\project\git\code-blocks\banking\checkingaccount.h
+	<iostream>
+	"Account.h"
+
+1413949491 c:\kdonthineni\project\git\code-blocks\banking\account.h
+	<iostream>
+
